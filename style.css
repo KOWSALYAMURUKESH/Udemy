@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Gabarito, sans-serif;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.navbar__s1__title {
+    color: #A435F0;
+
+
+}
+
+.navbar__s2 {
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar__s2 input {
+    font-size: 16px;
+    border: none;
+    width: 100%;
+}
+
+.navbar__s2 input:focus {
+    outline: none;
+}
+
+.navbar__s3 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.catagory {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+
+}
+
+.catagory p {
+    background-color: #A435F0;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.course-card {
+    width: 300px;
+}
+
+.course-card img {
+    width: 100%;
+}
+
+.recommended {
+    padding: 10px;
+
+}
+
+.recommended__container {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.course-card img {
+    height: 50%;
+    width: 100%;
+}
+
+h1 {
+    padding: 10px;
+}
+
+.topics {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.topics p {
+    border: solid grey 2px;
+    padding: 10px;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 25%;
+
+}
+
+.popular__title {
+    padding: 10px;
+}
+
+.popular__container{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.footer{
+    background-color: black;
+    color: wheat;
+}
+.footer__section1{
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+    padding: 20px;
+
+}
+.footer__section2{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
+.footer__section1 p{
+    margin: 20px;
+}
